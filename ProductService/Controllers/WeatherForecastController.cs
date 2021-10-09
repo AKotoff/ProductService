@@ -12,7 +12,7 @@ namespace ProductService.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Unknown"
         };
         public static List<WeatherForecast> weatehrs = new List<WeatherForecast>();                
         private readonly ILogger<WeatherForecastController> _logger;
